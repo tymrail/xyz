@@ -3,20 +3,22 @@ package com.company;
 public class dicSet {
     private String charactor;
     private Integer power;
-    public String getCharactor() {
+    public String GetCharactor() {
         return charactor;
     }
-    public void setCharactor(String charactor) {
+    public void SetCharactor(String charactor) {
         this.charactor = charactor;
     }
-    public Integer getPower() {
+
+    public Integer GetPower() {
         return power;
     }
-    public void setPower(Integer power) {
+    //1234
+    public void SetPower(Integer power) {
         this.power = power;
     }
-
-    public void setAll(String charactor, Integer power) {
+//dfdfsdf
+    public void SetAll(String charactor, Integer power) {
         this.charactor = charactor;
         this.power = power;
     }

@@ -21,7 +21,7 @@ public class Main {
         scan.close();
     }
 
-    public static String dealInput(String input,String exp) {
+    public static String DealInput(String input,String exp) {
         plusMinusExpressions<String,Integer,String,Integer> tempPme = new plusMinusExpressions<>();
         if (input.substring(0,1).equals("!")) {
             if (input.substring(0,4).equals("!d/d")) {
