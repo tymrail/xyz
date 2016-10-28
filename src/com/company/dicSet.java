@@ -13,11 +13,11 @@ public class dicSet {
     public Integer GetPower() {
         return power;
     }
-    //1234
+
     public void SetPower(Integer power) {
         this.power = power;
     }
-//dfdfsdf
+
     public void SetAll(String charactor, Integer power) {
         this.charactor = charactor;
         this.power = power;
