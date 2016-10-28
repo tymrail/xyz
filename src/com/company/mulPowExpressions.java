@@ -8,16 +8,16 @@ public class mulPowExpressions<F,K,P> {
     public Vector<F> factor;
     public MyDictionary<K,P> alphabet = new MyDictionary<>();
 
-    public mulPowExpressions() {
+    public MulPowExpressions() {
         this.factor = new Vector<>();
         this.alphabet = new MyDictionary<>();
     }
 
-    public P getValue(K key) {
+    public P GetValue(K key) {
         return alphabet.get(key);
     }
 
-    public boolean isExist(K key) {
+    public boolean IsExist(K key) {
         return alphabet.isExist(key);
     }
 
